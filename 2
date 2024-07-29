@@ -1,0 +1,154 @@
+/*===================Estilos Generales=========================*/
+body {
+    background-color: #333;
+    background-image: url(img/fondo.jpg);
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+/*=================Diseño de la sección=========================*/
+section {
+    min-height: 95vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*=================Diseño de la tarjeta=========================*/
+.card {
+    position: relative;
+    width: 600px;
+    height: 350px;
+    backdrop-filter: blur(20px);
+    background: #444;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5);
+    border: 2px solid #555;
+    border-radius: 25px;
+}
+
+/*=================Diseño del encabezado=========================*/
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+    border-bottom: 1px solid #666;
+}
+
+/*=================Diseño del nombre=========================*/
+.top span {
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+/*=================Diseño del icono=========================*/
+.top i {
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+/*=================Diseño del hover del icono=========================*/
+.top i:hover {
+    background: #fff;
+    cursor: pointer;
+}
+
+/*=================Diseño del mensaje emergente=========================*/
+.top p {
+    position: absolute;
+    top: 35px;
+    right: 20px;
+    background: #000;
+    padding: 5px 10px;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/*=================Diseño del hover del mensaje emergente=========================*/
+.top i:hover ~ p {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/*=================Diseño de la sección media=========================*/
+.middle {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 35px 0 35px;
+}
+
+/*=================Diseño de la imagen=========================*/
+.middle img {
+    width: 220px;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    outline: 2px dashed #ccc;
+}
+
+/*=================Diseño de la sección derecha=========================*/
+.middle .right {
+    margin: 25px 0px 15px 50px;
+}
+
+/*=================Diseño de las viñetas=========================*/
+ul li {
+    list-style-type: disc;
+}
+
+/*=================Diseño de los iconos sociales=========================*/
+.social-icon {
+    display: flex;
+    flex-direction: row;
+}
+
+/*=================Diseño de los iconos sociales individuales=========================*/
+.social-icon span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid #000;
+    border-radius: 25px;
+    height: 100%;
+    width: 25px;
+    margin: 0 5px;
+    transition: transform 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+/*=================Diseño de los iconos sociales individuales hover=========================*/
+.social-icon span:hover {
+    color: #000;
+    background: #fff;
+    transform: translateY(-5px);
+    box-shadow: inset 0 0 0 10px #fff;
+}
+
+/*=================Diseño del botón=========================*/
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    padding: 0 35px;
+}
+
+/*=================Diseño del botón individual=========================*/
+.btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+/*=================Diseño de los enlaces=========================*/
+a {
+    color: #fff;
+}

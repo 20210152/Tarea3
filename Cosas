@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="container">
+        <header>Acerca de mí</header>
+        
+            <li><b>Música:</b> Me encanta escuchar música electrónica y rock. La música es una forma de expresión y relajación.</li>
+            <li><b>Viajes:</b> Me gusta explorar nuevos lugares y culturas. Los viajes me permiten conocer nuevas personas y experiencias.</li>
+            <li><b>Lectura:</b> Me gusta leer libros de ciencia ficción y fantasía. La lectura es una forma de escapar y aprender.</li>
+            <li><b>Fotografía:</b> Me gusta capturar momentos y paisajes con mi cámara. La fotografía es una forma de expresión y creatividad.</li>
+            <li><b>Cocina:</b> Me gusta cocinar platos nuevos y experimentar con diferentes ingredientes. La cocina es una forma de creatividad y compartir con otros.</li>
+            <li><b>Aprendizaje continuo:</b> Me gusta aprender nuevas habilidades y conocimientos. El aprendizaje continuo es una forma de crecer y mejorar.</li>
+           
+        </div>
+
+</body>
+</html>
